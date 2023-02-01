@@ -55,4 +55,10 @@ d = {'name' : 'Suphal','age' : 18}
 # print(popped)               #! It gives key and value
 # print(d)
 
+#~ To convert into list
+exe = [('a',1),('b',2)]
+print(exe)
+print(dict(exe))
+
+
 
