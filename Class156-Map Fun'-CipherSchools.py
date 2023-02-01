@@ -1,4 +1,10 @@
 # map function
+
+
+
+#! Map Syntax
+#! map(function,iterator(like list,tupel))
+
 num = [1,2,3,4]
 names = ['abc','abcd','abcde']
 
