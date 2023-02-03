@@ -6,3 +6,14 @@ squares = map(lambda a:a*2,num)   #! Iterator
 
 
 
+#& Iterables
+
+num_iter = iter(num)
+print(next(num_iter))
+print(next(num_iter))
+print(next(num_iter))
+print(next(num_iter))
+# print(next(num_iter))
+
+#& Iterator
+print(next(squares))
