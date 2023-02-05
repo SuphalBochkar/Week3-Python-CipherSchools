@@ -20,3 +20,11 @@ def ava2(*args):
         average.append(sum(pair)/len(pair))
     return average
 #! M-3
+def ava3(*args):
+    return [sum(pair)/len(pair) for pair in zip(*args)]
+#! M-4
+ava4 = lambda *args : [sum(pair)/len(pair) for pair in zip(*args)]
+
+print(ava2([1,2,3],[4,5,6],[7,8,9]))
+print(ava3([1,2,3],[4,5,6],[7,8,9]))
+print(ava4([1,2,3],[4,5,6],[7,8,9]))
