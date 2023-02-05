@@ -14,3 +14,9 @@
 #         average.append(sum(pair)/len(pair))
 #     return average
 #! M-2
+def ava2(*args):
+    average = []
+    for pair in zip(*args):
+        average.append(sum(pair)/len(pair))
+    return average
+#! M-3
