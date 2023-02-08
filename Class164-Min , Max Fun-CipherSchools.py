@@ -17,6 +17,15 @@ std1 = {
     'bochkar' : {'score':60,'age':16},
     'sai' : {'score':99,'age':18}
 }
+print(max(std1,key = lambda item : std1[item]['score']))
+
+std2 = [
+    {'name':'suphal','score': 100,'age':17},
+    {'name':'bochkar','score':60,'age':16},
+    {'name':'sai','score':99,'age':18}
+]
+# print((max(std2,key = lambda item:item['score']))['name']) 
+# print((max(std2,key = lambda item:item['age']))['name'])
 
 
 
