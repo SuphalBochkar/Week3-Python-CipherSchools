@@ -12,6 +12,11 @@ names  = ['suphal','bochkar','sai']
 # print(max(names,key = lambda item : len(item)))
 # print(sorted(names,key = lambda item : len(item),reverse=True))           #f2f #^ Most Important 
 
+std1 = {
+    'suphal' : {'score':100,'age':17},
+    'bochkar' : {'score':60,'age':16},
+    'sai' : {'score':99,'age':18}
+}
 
 
 
