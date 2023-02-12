@@ -9,3 +9,7 @@ print(square(7))
 
 s = square
 
+print(s.__name__)
+print(square.__name__)
+print(s)
+print(square)
