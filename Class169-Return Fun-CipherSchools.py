@@ -6,6 +6,7 @@ def outer_fnc():
 # var = outer_fnc
 # var()
 
+
 def outer_fnc2(msg):
     def inner_fnc2():
         print(f'your message is : {msg}')
