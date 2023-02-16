@@ -6,3 +6,8 @@ def deco_func(any_func):
         print('This is awesome Function')
         any_func()
     return wrapper
+
+@deco_func
+def func1():
+    print('this is function one 1')
+func1()
