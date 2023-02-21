@@ -12,3 +12,9 @@ def print_func_data(function):
         print(function.__name__)
         return function(*args, **kwargs)
     return wrapper
+        
+@print_func_data
+def add(a,b):
+    '''This function takes two numbers as arguments and return their sum'''
+    return a+b
+print(add(4,5))
