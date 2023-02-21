@@ -18,3 +18,9 @@ def add(a,b):
     '''This function takes two numbers as arguments and return their sum'''
     return a+b
 print(add(4,5))
+
+@print_func_data
+def sub(a,b):
+    '''This function takes two numbers as arguments and return their sum'''
+    return a-b
+print(sub(4,5))
