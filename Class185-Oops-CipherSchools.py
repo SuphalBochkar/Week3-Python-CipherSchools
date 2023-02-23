@@ -7,3 +7,11 @@
 # # WE WILL
 # class
 # SEE OTHER ADVANTAGES WHEN WE WILL START LEARNING OOP
+
+# wject(instance), method
+
+# list class   
+# list object
+# method
+
+
