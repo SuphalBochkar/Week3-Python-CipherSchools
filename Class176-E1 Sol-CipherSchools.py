@@ -11,3 +11,8 @@ def calculator_time(func):
         print(f'this programe took {t2-t1} seconds to execute')
         return value
     return wrapper
+
+@calculator_time
+def square(n):
+    return [i**2 for i in range(1,n+1)]
+square(99999999)
