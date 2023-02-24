@@ -24,3 +24,7 @@ l.append(8)
 
  
 
+class List:
+    def __init__(self,l):
+        self.list = list
+l = List(1,2,3,4)
