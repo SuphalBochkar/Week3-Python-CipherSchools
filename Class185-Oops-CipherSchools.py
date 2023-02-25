@@ -35,3 +35,12 @@ class Car:
         self.color = color
     def details(self):
         return f'{self.brand} {self.color}'
+obj = Car('benz','black')    
+print(obj.details())
+
+
+
+
+
+
+
