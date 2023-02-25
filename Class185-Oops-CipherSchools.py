@@ -28,3 +28,10 @@ class List:
     def __init__(self,l):
         self.list = list
 l = List(1,2,3,4)
+
+class Car:
+    def __init__(self,brand,color):
+        self.brand = brand
+        self.color = color
+    def details(self):
+        return f'{self.brand} {self.color}'
