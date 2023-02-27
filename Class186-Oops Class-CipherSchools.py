@@ -11,3 +11,9 @@ class Person:
         print("init method is called")
         self.fn = fn
         self.ln = ln
+        self.age = age
+
+obj1 = Person('suphal','bochkar',18)
+obj2 = Person('sai','bochkar',17)
+print(obj1.fn)
+print(obj2.fn)
