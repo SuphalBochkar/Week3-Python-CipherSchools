@@ -12,3 +12,7 @@ class Person:
         if self.age > 18:
             return 'You big man'
         return "Smoll"
+
+p1 = Person('suphal','bochkar',17)
+p2 = Person('sai','bochkar',18)
+
