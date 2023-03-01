@@ -16,3 +16,9 @@ class Person:
 p1 = Person('suphal','bochkar',17)
 p2 = Person('sai','bochkar',18)
 
+# print(p1.full_name())
+# print(Person.full_name(p1))
+# print(p2.full_name())
+# print(Person.full_name(p1))
+
+# print(p1.adult())
