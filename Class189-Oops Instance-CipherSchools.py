@@ -22,3 +22,15 @@ p2 = Person('sai','bochkar',18)
 # print(Person.full_name(p1))
 
 # print(p1.adult())
+
+
+
+
+
+
+
+
+
+
+l = [1,2,3]
+# Clear , append
