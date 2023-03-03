@@ -34,3 +34,13 @@ p2 = Person('sai','bochkar',18)
 
 l = [1,2,3]
 # Clear , append
+
+#& Clear
+# l.clear()
+# list.clear(l)
+# print(l)
+#& Append
+# l.append(10)
+# list.append(l,10)
+# print(l)
+
